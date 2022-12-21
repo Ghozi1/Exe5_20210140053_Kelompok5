@@ -12,6 +12,20 @@ namespace Exe5
         public Node next;
     }
 
+    class queue
+    {
+        Node muhammad, ghifari;
+        
+        public queue()
+        {
+            muhammad = null;
+            ghifari = null;
+        }
+    }
+
+
+
+
     class Program
     {
         static void Main(string[] args) 
