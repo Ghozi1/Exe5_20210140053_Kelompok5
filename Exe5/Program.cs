@@ -19,11 +19,20 @@ namespace Exe5
         public queue()
         {
             muhammad = null;
-            ghifari = null;
+            ghifari = null; 
+        }
+
+        public void insert()
+        {
+            string k5;
+            Node kel5 = new Node();
+            Console.WriteLine("Masukan Elemnet data");
+            k5 = Console.ReadLine();
+            kel5.name = k5;
+            kel5.next = null;
+            
         }
     }
-
-
 
 
     class Program
