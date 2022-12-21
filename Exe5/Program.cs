@@ -38,6 +38,14 @@ namespace Exe5
             muhammad.next = kel5;
             muhammad = kel5;
         }
+
+        public void delete()
+        {
+            if(muhammad == null)
+            {
+                Console.WriteLine("Queue is empty");
+            }
+        }
     }
 
 
