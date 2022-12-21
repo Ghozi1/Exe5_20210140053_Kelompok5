@@ -50,6 +50,15 @@ namespace Exe5
             if (muhammad == null)
                 ghifari = null;
         }
+        public void display()
+        {
+            if (muhammad == null)
+            {
+                Console.WriteLine("Queue is Empty!!");
+                return;
+            }
+            
+        }
     }
 
 
