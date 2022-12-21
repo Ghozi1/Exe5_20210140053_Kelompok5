@@ -30,7 +30,13 @@ namespace Exe5
             k5 = Console.ReadLine();
             kel5.name = k5;
             kel5.next = null;
-            
+            if (muhammad == null)
+            {
+                muhammad = kel5;
+                ghifari = kel5;
+            }
+            muhammad.next = kel5;
+            muhammad = kel5;
         }
     }
 
