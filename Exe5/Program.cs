@@ -57,7 +57,9 @@ namespace Exe5
                 Console.WriteLine("Queue is Empty!!");
                 return;
             }
-            
+            Node display;
+            for (display = muhammad; display != null; display = display.next)
+                Console.WriteLine(display.name);
         }
     }
 
