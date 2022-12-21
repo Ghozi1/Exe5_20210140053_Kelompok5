@@ -44,7 +44,11 @@ namespace Exe5
             if(muhammad == null)
             {
                 Console.WriteLine("Queue is empty");
+                return;
             }
+            muhammad = muhammad.next;
+            if (muhammad == null)
+                ghifari = null;
         }
     }
 
